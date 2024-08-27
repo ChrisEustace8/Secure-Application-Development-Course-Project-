@@ -1,11 +1,10 @@
-miniFacebook Web Application
+**Secure Application Development Course Project**
 
-Purpose:
+## Description:
+This project is a secure miniFacebook web application developed as part of the **CPS 475/575: Secure Application Development** course at the University of Dayton.
+This project demonstrates the application of secure programming principles and web development technologies by building a simple yet secure miniFacebook web application. The application allows users to register, log in, post, edit, delete, and comment, all while adhering to key security practices. 
 
-This project demonstrates the application of secure programming principles and web development technologies by builing a simple yet secure miniFacebook web application. 
-The application allows users to register, log in, post, edit, delete, and comment, all while adhering to key security practices. 
-
-Features:
+## Features:
 
 User Registration: Anyone can register for an account.
 
@@ -27,7 +26,7 @@ Security:
     Session authenication and prevention of session hijacking 
     CSRF protection
 
-Description of functions used in files:
+## Description of functions used in files:
 dbConnect($dbHost, $dbUser, $dbPass, $dbName): Function to establish a connection
 to the database.
 
@@ -58,3 +57,5 @@ deleteComment($comment_id): Function to delete a comment from the forum.
 getPostsByUser($username): Function to retrieve posts created by a specific user from
 the database.
 
+## Acknowledgements 
+Dr. Zhongmei Yao at the University of Dayton
